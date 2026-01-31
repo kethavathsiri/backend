@@ -1,0 +1,81 @@
+nohup: ignoring input
+INFO:     Started server process [47764]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:48000 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48002 - "POST /api/auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46804 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42320 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45762 - "OPTIONS /api/auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45762 - "POST /api/auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45762 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45762 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45762 - "OPTIONS /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45766 - "OPTIONS /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45766 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45762 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36222 - "OPTIONS /api/quiz/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36222 - "POST /api/quiz/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37050 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37050 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37056 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37524 - "POST /api/quiz/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38234 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38240 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38234 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38240 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44290 - "POST /api/quiz/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36014 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50750 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54026 - "GET /api/history HTTP/1.1" 200 OK
+INFO:__main__:Scraping article from https://en.wikipedia.org/wiki/Albert_Einstein
+INFO:scraper:Scraping: https://en.wikipedia.org/wiki/Albert_Einstein
+INFO:scraper:Extracted: 506 char summary, 0 sections, 8000 char full text
+INFO:__main__:Generating quiz with LLM
+INFO:llm_service:Generating quiz for article: Albert Einstein
+INFO:llm_service:Using mock quiz generator (LLM quota exceeded)
+INFO:mock_quiz_generator:Generated 7 mock quiz questions
+INFO:__main__:Generating related topics
+INFO:llm_service:Using mock related topics generator
+INFO:__main__:Storing quiz in database
+INFO:     127.0.0.1:42310 - "POST /api/quiz/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57524 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47778 - "POST /api/quiz/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50942 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50934 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54218 - "OPTIONS /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54218 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54218 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40696 - "OPTIONS /api/quiz/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40696 - "POST /api/quiz/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34226 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34242 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51458 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51458 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39216 - "POST /api/quiz/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39216 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39216 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44800 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44784 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37492 - "POST /api/quiz/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37492 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42698 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42950 - "POST /api/quiz/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35278 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41382 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40154 - "POST /api/quiz/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51966 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51966 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51966 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51954 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44354 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44354 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44354 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36714 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44354 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36714 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44354 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36714 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33250 - "GET /api/quiz/8 HTTP/1.1" 200 OK
