@@ -1,0 +1,8 @@
+# Render Deployment Configuration
+
+# This file is used to configure the Render deployment settings.
+
+# Specify the environment variables here
+# For example:
+# WEB_CONCURRENCY=1
+# Add any other environment variables your application needs

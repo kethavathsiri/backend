@@ -20,5 +20,11 @@ COPY . .
 # Expose port
 EXPOSE 8000
 
+# Render configuration
+
+# Specify the command to run your application
+# For example:
+# command: python main.py
+
 # Run app
 CMD ["python", "main.py"]
